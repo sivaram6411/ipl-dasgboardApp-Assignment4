@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.competing-team-and-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-and-image {
+    padding-right: 80px;
+  }
+}
+.competing-team-container {
+}
+@media screen and (min-width: 768px) {
+  .competing-team-container {
+    margin-right: 230px;
+  }
+}
+.competing-team-heading {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-heading {
+    font-size: 22px;
+  }
+}
+.competing-team-date {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-date {
+    font-size: 22px;
+  }
+}
+.competing-team-text {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.competing-team-text1 {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-text {
+    font-size: 16px;
+    text-align: right;
+  }
+  .competing-team-text1 {
+    font-size: 16px;
+  }
+}
+.competing-team-logo {
+  width: 70px;
+  height: 80px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 150px;
+    height: 200px;
+  }
+}
+.innings-container {
+  padding-left: 8px;
+}
+.competing-team-innings {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-innings {
+    font-size: 22px;
+    text-align: right;
+  }
+}
+.hr-line {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+}

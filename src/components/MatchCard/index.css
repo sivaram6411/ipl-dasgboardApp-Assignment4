@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.match-card-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #1e293b;
+  padding: 12px;
+  margin: 10px;
+  width: 150px;
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  .match-card-list {
+    min-width: 320px;
+    height: 400px;
+    flex-grow: 1;
+    padding: 20px;
+  }
+}
+.match-card-image {
+  width: 30px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .match-card-image {
+    width: 100px;
+    height: 120px;
+  }
+}
+.match-card-heading {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+.match-card-text {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-heading {
+    font-size: 22px;
+  }
+  .match-card-text {
+    font-size: 16px;
+  }
+}
+.match-card-status {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #e31a1a;
+  font-weight: 500;
+}
+.match-card-status1 {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #18ed66;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .match-card-status {
+    font-size: 20px;
+  }
+  .match-card-status1 {
+    font-size: 20px;
+  }
+}
